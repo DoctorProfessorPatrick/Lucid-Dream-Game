@@ -1,0 +1,90 @@
+body {
+	background-color: #FEE3D3;
+}
+
+h1 {
+	font-family: verdana;
+	font-size: 40px;
+	color: #9485FA;
+	text-align: center;
+}
+
+h3 {
+	font-family: verdana;
+	font-size: 25px;
+	color: #9485FA;
+	text-align: center;
+}
+h2 {
+	font-family: verdana;
+	font-size: 25px;
+	color: #252426;
+	text-align: center;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+	color: #9485FA;
+	text-align: center;
+}
+
+div.form {
+	display: block;
+	text-align: center;
+}
+
+div.options {
+	border-color: #9485FA;
+	display: flex;
+	flex-flow: nowrap;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: verdana;
+	font-size: 20px;
+	color: #252426;
+	text-align: center;
+	height: 300px;
+	width: 950px;
+	background-color: #9485FA;
+}
+
+div.avatar {
+	display: float;
+	text-align: center;
+}
+
+
+
+.form-inline {
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	font-family: verdana;
+	font-size: 20px;
+	color: #252426;
+	
+}
+
+.form-inline label {
+	display: flex;
+	flex-flow: row wrap;
+	margin: 10px 10px 5px 0;
+}
+.form-inline input {
+	display: flex;
+	flex-flow: row wrap;
+	vertical-align: middle;
+	margin: 5px 10px 5px 0;
+	padding: 10px;
+}
+
+.form-inline button {
+	padding: 10px 20px;
+	background-color: #9485FA;
+	color: #252426;
+}
+
+.form-inline button:hover {
+	background-color: royalblue;
+}
